@@ -1,0 +1,15 @@
+[package]
+name = "ethers-signer-factory"
+description = "Key derivation and cryptographic signing functionality for Ethereum applications"
+repository = "https://github.com/iliachesnokov/ethers-signer-factory"
+authors = ["Ilia Chesnokov", "Stabfi SIA"]
+readme = "README.md"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+ethers-core = { version = "2.0.8", features = ["legacy"] }
+ethers-signers = "2.0.8"
+hex = "0.4.3"
+ring = { version = "0.16.20", features = ["std"] }
