@@ -17,7 +17,7 @@ To use **ethers-signer-factory** in your Rust project, add it as a dependency in
 
 ```toml
 [dependencies]
-ethers-signer-factory = "1.0.0"
+ethers-signer-factory = "1.0.1"
 ```
 
 ## Usage

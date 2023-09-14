@@ -4,7 +4,7 @@ description = "Key derivation and cryptographic signing functionality for Ethere
 repository = "https://github.com/iliachesnokov/ethers-signer-factory"
 authors = ["Ilia Chesnokov", "Stabfi SIA"]
 readme = "README.md"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 license = "MIT"
 
