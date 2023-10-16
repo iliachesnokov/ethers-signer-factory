@@ -4,7 +4,7 @@ description = "Key derivation and cryptographic signing functionality for Ethere
 repository = "https://github.com/iliachesnokov/ethers-signer-factory"
 authors = ["Ilia Chesnokov", "Stabfi SIA"]
 readme = "README.md"
-version = "1.0.1"
+version = "2.0.0"
 edition = "2021"
 license = "MIT"
 
@@ -13,3 +13,8 @@ ethers-core = { version = "2.0.8", features = ["legacy"] }
 ethers-signers = "2.0.8"
 hex = "0.4.3"
 ring = { version = "0.16.20", features = ["std"] }
+thiserror = "1.0.48"
+
+[dev-dependencies]
+ethers-contract-derive = "2.0.10"
+tokio = { version = "1.33.0", features = ["rt-multi-thread", "macros"] }
